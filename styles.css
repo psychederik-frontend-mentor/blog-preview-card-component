@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Figtree-ExtraBold';
+    src: url('./assets/fonts/static/Figtree-ExtraBold.ttf') format('TrueType');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Figtree-Normal';
+    src: url('./assets/fonts/Figtree-VariableFont_wght.ttf') format('TrueType');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #f4d04e;
+    font-family: 'Figtree', sans-serif;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+}
+
+.content h1 {
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    font-family: 'Figtree-ExtraBold';
+    color: #111111;
+    transition: color .8s;
+}
+
+.card:hover #title {
+    color: #f4d04e;
+}
+
+.content-info {
+    font-family: 'Figtree-Normal';
+    font-size: 18px;
+    line-height: 150%;
+    color: #6b6b6b;
+}
+
+.date {
+    font-family: 'Figtree-Normal';
+    font-size: 18px;
+    line-height: 150%;
+    color: #111111;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.card {
+    background-color: #fff;
+    justify-content: center;
+    align-items: left;
+    height: 522px;
+    width: 384px;
+    border-radius: 20px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    border: solid #111111 1px;
+    box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 1);
+    transition: box-shadow .8s;
+}
+
+.card:hover {
+    box-shadow: 20px 20px 0px 0px rgba(0, 0, 0, 1);
+}
+
+.category-label {
+    background-color: #f4d04e;
+    color: #111111;
+    font-family: 'Figtree-ExtraBold';
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+}
+
+#blog-image {
+    padding: 10px 0px 20px 0px;
+}
+
+.author {
+    display: flex;
+    font-size: 14px;
+    /* margin-top: 5px; */
+}
+
+.author h3 {
+    font-family: 'Figtree-ExtraBold';
+    font-size: 16px;
+}
+
+#author-image {
+    height: 40px;
+    padding-right: 10px;
+    margin-top: 5px;
+}
+
+#blog-image {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+}
